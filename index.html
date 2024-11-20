@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>To do List</title>
+    <!-- css -->
+     <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+        <div class="container">
+        <div class="input">
+          <h2 class="text-center mt-5">To do List</h2>
+          <form onsubmit="getData()">
+            <input type="text" placeholder="Enter your work" maxlength="20" autofocus id="work">
+            <input type="submit" value="Enter">
+          </form>
+          </div>
+          <div class="list">
+            <ol id="result">
+            </ol>
+        </div>
+  <script src="js/main.js"></script>
+  </body>
+</html>
